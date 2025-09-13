@@ -1,0 +1,30 @@
+@use 'variables.scss' as v;
+
+.section1 {
+
+    .symbol {
+        background-color:orange;
+
+        span {
+            transform:rotate(180deg) translate(50%, 50%);
+        }
+    }
+
+    .message {
+        color:v.$hover-color;
+        
+        span {
+            color:red;
+            margin-top:-1px;
+        }
+    }
+
+    p {
+        color:#000000;
+
+        span {
+            font-size:0.75em;
+            color:rgb(134, 134, 134);
+        }
+    }
+}

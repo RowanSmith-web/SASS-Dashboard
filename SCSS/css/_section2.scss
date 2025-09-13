@@ -1,0 +1,22 @@
+@use 'variables.scss' as v;
+
+.section2 {
+
+    .symbol {
+        background-color:rgb(63, 195, 63);
+
+        span {
+            font-variation-settings:
+            'FILL' 1,;
+        }
+    }
+    p {
+        color:rgb(123,123,123);
+    }
+    .message {
+        
+        span {
+            margin-top:-4px;
+        }
+    }
+}
